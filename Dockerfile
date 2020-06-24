@@ -1,6 +1,5 @@
 FROM debian:buster
 
-COPY sources.list /etc/apt/
 RUN set -x;\
     apt update && apt install wget ca-certificates -y
 
